@@ -1,0 +1,131 @@
+
+.navbar-care{
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+.clear-float{
+    clear: both
+}
+
+@media (min-width: 768px){
+.nav1>li>a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-right: 1px dotted black; 
+    height: 40px;
+    vertical-align: middle;
+    /*line-height: 18px;*/
+}
+.navbar-nav > li {
+    padding:10px 0px 10px 0px;
+}
+}
+.search-guide{
+    font-size: 11px;
+    margin-top: -20px;
+}
+.nav2{
+    background: linear-gradient(#ffffff 33%,#E4E3E3 91%);
+    z-index: -2;
+    height: 75px;
+    margin-bottom: 0px;
+}
+.logo{
+    z-index: 3;
+}
+.slider{
+    /*background-image: url('../images/banner_new10.jpg')*/
+    height: 463px;
+    padding-left: 0px;
+}
+/*home*/
+.home-buttons{
+    margin-top: 30px;
+    float: left;
+}
+.home-buttons > button{
+    background-color: #7a6db5; 
+    padding: 7px 35px 6px 10px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 1px solid #7a6db5;
+    color: #ffffff;
+    margin: 5px 0px; 
+}
+.home-buttons > button:hover {
+       cursor: pointer;
+       background-color: #a62a4f; 
+       border: 1px solid #a62a4f;
+}
+.home-view{
+    height: 463px;
+    margin-top: 30px; 
+}
+.home-article{
+    background-color: #eae8dc;
+    height: 350px;
+    margin-top: 75px; 
+}
+.home-article > p, .home-article > h2{
+    color: #454545; 
+}
+.home-box{
+    background-color: #ffffff;
+    height: 200px;
+    margin: 20px 10px;
+}
+.home-box > h3{
+    color: #0000ff;
+    border-bottom: 1px dotted #454545; 
+    padding-bottom: 5px; 
+    font-size: 18px;
+}
+.home-box >p{
+    color: #454545;
+    border-bottom: 1px dotted #454545;
+    padding-bottom: 5px;
+}
+.home-box marquee ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.home-box marquee ul li{
+    border-bottom: 1px dotted #454545;
+
+ }
+.home-box a{
+    color: #454545;
+    padding-bottom: 3px;
+}
+.home-footer{
+    background-color: #8b77c8;
+    height: 100px;
+}
+.footer-row {
+    list-style-type: none;
+    margin-top: 15px;
+}
+.footer-row  li{
+    float: left;
+}
+.footer-row  li a{
+    color: #ffffff;
+    margin: 5px 0px 5px 0px;
+    padding: 0px 10px 0px 5px;
+    border-right: 1px solid #ffffff; 
+}
+/*appointment*/
+.appointment-form{
+    background-color: #ffffff;
+    padding: 10px;    
+    margin: 0px 5px 5px 0px;
+}
+.appointment-form h3{
+    color: #463382
+}
+.albums{
+    float: left;
+}
+.users{
+    float: left
+}
